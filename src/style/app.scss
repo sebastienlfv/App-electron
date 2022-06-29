@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #29292C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 94px;
+
+  .navigation {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: #FFFF;
+    text-decoration: none;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    img {
+      margin-right: 10px;
+      border-radius: 50px;
+    }
+  }
+}
